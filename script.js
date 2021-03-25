@@ -8,18 +8,11 @@ function comparison () {
   userInput = parseInt(userInput)
 
   /* Check if userInput is less than 0 */
-  if (userInput < 0)
-  {
+  if (userInput < 0) {
     document.getElementById('answer').innerHTML = 'Negative'
-  }
-  /* Check if userInput is greater than or equal to 0 */ 
-  else if (userInput >= 0)
-  {
+  } else if (userInput >= 0) {
     document.getElementById('answer').innerHTML = 'Positive'
-  } 
-  /* Else, display an error message */
-  else
-  {
+  } else {
     document.getElementById('answer').innerHTML = 'Not an integer'
   }
 }
